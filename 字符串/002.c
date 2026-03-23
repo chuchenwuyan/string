@@ -9,6 +9,18 @@ int main()
 	//但char* str是只读常量区，不能键盘录入
 
 	printf("请录入\n");
-	scanf("%s",str);	//可以不写&
+	scanf("%[^\n]",str);	//可以不写&
+	char* p = str;
+	//遍历
+	while (1)
+	{
+		char c = *p;
+		if (c == '\0')
+		{
+			break;
+		}
+		printf("%c\n",c);
+		p++;
+	}
 	return 0;
 }

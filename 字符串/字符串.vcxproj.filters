@@ -18,5 +18,14 @@
     <ClCompile Include="001.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="002.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="003.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="004.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
